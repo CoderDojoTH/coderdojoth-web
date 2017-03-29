@@ -1,0 +1,12 @@
+version: '2'
+services:
+  coderdojo:
+    image: coderdojo
+    container_name: coderdojo
+    hostname: coderdojo
+    volumes:
+      - "../:/mnt/"
+    environment:
+      CODE_PATH: "/mnt/"
+      UID: '1000'
+    network_mode: host
