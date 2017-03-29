@@ -1,9 +1,9 @@
 version: '2'
 services:
-  coderdojo:
-    image: coderdojo
-    container_name: coderdojo
-    hostname: coderdojo
+  updater.coderdojo:
+    image: coderdojo-updater
+    container_name: updater.coderdojo
+    hostname: updater-coderdojo
     volumes:
       - "../:/mnt/"
     environment:
