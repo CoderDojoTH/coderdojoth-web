@@ -1,0 +1,20 @@
+version: '2'
+services:
+  nginx.coderdojo:
+    image: nginx
+    container_name: nginx.coderdojo
+    hostname: nginx-coderdojo
+    volumes:
+      - "../output/:/usr/share/nginx/html/"
+      - "nginx-log-coderdojo:/var/log/nginx/"
+    networks:
+      - external-net
+    restart: always
+
+networks:
+  external-net:
+    external:
+      name: coderdojo-network
+
+volumes:
+  nginx-log-coderdojo:
