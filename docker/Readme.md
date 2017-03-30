@@ -15,7 +15,7 @@
 ```
   - Run docker compose for compile code
 ```
-  $ docker-compose -f updater-compose.yml up
+  $ docker-compose -f updater-compose.yml run --rm updater.coderdojo
 ```
   - Build docker image for coderdojo website
 ```
