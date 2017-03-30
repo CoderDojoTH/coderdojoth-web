@@ -2,4 +2,4 @@
 
 OPT=$1
 
-docker build $OPT -t coderdojo-updater .
+docker build $OPT -t coderdojo-compiler .
