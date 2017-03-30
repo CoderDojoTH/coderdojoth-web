@@ -1,0 +1,12 @@
+version: '2'
+services:
+  updater.coderdojo:
+    image: coderdojo-updater
+    container_name: updater.coderdojo
+    hostname: updater-coderdojo
+    volumes:
+      - "../../:/mnt/"
+    environment:
+      CODE_PATH: "/mnt/"
+      UID: '1000'
+    network_mode: host
