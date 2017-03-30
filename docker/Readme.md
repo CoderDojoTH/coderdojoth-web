@@ -8,14 +8,14 @@
 
 # How to use
   - Clone https://github.com/CoderDojoTH/coderdojoth-web.git
-  - Build updater image
+  - Build compiler image
 ```
-  $ cd coder-updater
+  $ cd coder-compiler
   $ ./build.sh
 ```
   - Run docker compose for compile code
 ```
-  $ docker-compose -f updater-compose.yml run --rm updater.coderdojo
+  $ docker-compose -f compiler-compose.yml run --rm compiler.coderdojo
 ```
   - Build docker image for coderdojo website
 ```
