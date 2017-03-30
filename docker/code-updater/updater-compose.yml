@@ -5,7 +5,7 @@ services:
     container_name: updater.coderdojo
     hostname: updater-coderdojo
     volumes:
-      - "../:/mnt/"
+      - "../../:/mnt/"
     environment:
       CODE_PATH: "/mnt/"
       UID: '1000'
