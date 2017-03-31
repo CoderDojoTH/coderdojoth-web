@@ -1,9 +1,9 @@
 version: '2'
 services:
-  updater.coderdojo:
-    image: coderdojo-updater
-    container_name: updater.coderdojo
-    hostname: updater-coderdojo
+  compiler.coderdojo:
+    image: coderdojo-compiler
+    container_name: compiler.coderdojo
+    hostname: compiler-coderdojo
     volumes:
       - "../../:/mnt/"
     environment:
