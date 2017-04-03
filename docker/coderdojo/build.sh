@@ -1,8 +1,8 @@
 #!/bin/bash
 
 OPT=$1
-REGISTRY=registry-infra.proteus-tech.com
+REGISTRY=coderdojoth
 
 mv ../../output .
 
-docker build $OPT -t $REGISTRY/coderdojo .
+docker build $OPT -t $REGISTRY/web .

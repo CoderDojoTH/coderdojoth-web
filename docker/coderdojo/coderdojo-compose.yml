@@ -1,7 +1,7 @@
 version: '2'
 services:
   nginx.coderdojo:
-    image: registry-infra.proteus-tech.com/coderdojo
+    image: coderdojoth/web
     container_name: nginx.coderdojo
     hostname: nginx-coderdojo
     volumes:
