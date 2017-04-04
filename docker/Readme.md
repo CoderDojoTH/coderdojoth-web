@@ -1,5 +1,5 @@
 # What about docker
- This is docker image for run coderdojo website
+ This is docker image for run coderdojoth website
 
 
 # Prerequisite
@@ -22,7 +22,7 @@
   $ cd coderdojo
   $ ./build.sh
 ```
-  - Run docker compose for run coderdojo website
+  - Run docker compose for run coderdojoth website
 ```
   $ docker-compose -f coder-compose.yml up -d
 ```
