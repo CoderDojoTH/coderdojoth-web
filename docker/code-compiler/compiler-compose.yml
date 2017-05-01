@@ -1,0 +1,12 @@
+version: '2'
+services:
+  compiler.coderdojo:
+    image: coderdojo-compiler
+    container_name: compiler.coderdojo
+    hostname: compiler-coderdojo
+    volumes:
+      - "../../:/mnt/"
+    environment:
+      CODE_PATH: "/mnt/"
+      UID: '1000'
+    network_mode: host
