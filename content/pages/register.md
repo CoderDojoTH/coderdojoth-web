@@ -8,7 +8,7 @@ slug:				registration
 In order to register for CoderDojo, first you need to create an account for yourself and the Ninjas (participants), then you join a Dojo, and then book seats at that Dojo.
 
 # Step 1
-If you have not registered already, click "Register"
+If you have not registered already, go to [Coderdojo.com](https://coderdojo.com) and click "Register"
 ![Step 1]({filename}/images/register/register_01.png)
 
 # Step 2
